@@ -37,7 +37,8 @@ def get_embedding_X(img):
         embs.extend(emb)
         cnt += 1
         progress = round(100 * (cnt * 1000 / img.shape[0]),2)
-        print progress
+        if(progress%10 == 0):
+          print progress
     embs = np.array(embs)
     print embs.shape
     embs = np.reshape(embs,(embs.shape[0],embs.shape[1] * embs.shape[2] * embs.shape[3]))
