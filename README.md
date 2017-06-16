@@ -13,6 +13,7 @@ Installation involves downloading of vgg model into /tmp/. This is a huge file, 
 # Usage : 
 
 * Check examples folder for a demo notebook. 
+  - Included transfer learning for MNIST, achieve 99.2% accuracy with logistic regression using transfer learnt representation as features
 * Features as of now
   - Takes input an image and returns a trasnfer learnt representation of the image. 
   - The returned vector can be used as features of image to build classification algorithms using simple ML models like logistic regression, SVM. 
