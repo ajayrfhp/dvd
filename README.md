@@ -15,10 +15,12 @@ Installation involves downloading of vgg model into /tmp/. This is a huge file, 
 * Check examples folder for a demo notebook. 
   - Included transfer learning for MNIST, achieve 99.2% accuracy with logistic regression using transfer learnt representation as features
 * Features as of now
-  - Takes input an image and returns a trasnfer learnt representation of the image. 
-  - The returned vector can be used as features of image to build classification algorithms using simple ML models like logistic regression, SVM. 
-  - Get transfer learnt embeddings from Vgg Net. Given an image obtain a dense vector representation. 
-
+  - ** Transfer Learning **
+  	- Takes input an image and returns a trasnfer learnt representation of the image. 
+  	- The returned vector can be used as features of image to build classification algorithms using simple ML models like logistic regression, SVM. 
+  	- Get transfer learnt embeddings from Vgg Net. Given an image obtain a dense vector representation. 
+  - ** Object Detector **
+	- Simple object detector
 
 
 
